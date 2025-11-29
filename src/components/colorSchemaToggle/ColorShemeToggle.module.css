@@ -1,0 +1,20 @@
+.icon {
+  width: 22px;
+  height: 22px;
+}
+
+/* حالت روشن */
+.light {
+  display: block;
+}
+.dark {
+  display: none;
+}
+
+/* حالت تاریک */
+:root[data-mantine-color-scheme="dark"] .light {
+  display: none;
+}
+:root[data-mantine-color-scheme="dark"] .dark {
+  display: block;
+}
