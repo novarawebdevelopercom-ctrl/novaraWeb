@@ -1,0 +1,10 @@
+export { default as ArrowDownIcon } from './ArrowDownIcon';
+export { default as CallIcon } from './CallIcon';
+export { default as MapIcon } from './MapIcon';
+export { default as MoonIcon } from './MoonIcon';
+export { default as SmsIcon } from './SmsIcon';
+export { default as SocialGithubIcon } from './SocialGithubIcon';
+export { default as SocialInstagramIcon } from './SocialInstagramIcon';
+export { default as SocialLinkedinIcon } from './SocialLinkedinIcon';
+export { default as SocialxIcon } from './SocialxIcon';
+export { default as SunIcon } from './SunIcon';
