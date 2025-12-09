@@ -7,7 +7,8 @@ import { ButtonProps } from './types';
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   (
     {
-      children,
+      
+      label, // اضافه شد
       loading = false,
       startIcon = null,
       endIcon = null,
@@ -29,12 +30,8 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         variant={variant}
         {...props}
       >
-        {children}
+        {label } {/* اگر label بود استفاده شود، در غیر این صورت children */}
       </MantineButton>
     );
   }
 );
-
-Button.displayName = 'Button';
-
-export default Button;

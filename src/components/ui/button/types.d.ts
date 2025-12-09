@@ -1,6 +1,3 @@
-import { ButtonHTMLAttributes, ReactNode } from 'react';
-import { ColorVariant, SizeVariant, Variants } from '@/components/ui/types';
-
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   loading?: boolean;
   size?: SizeVariant;
@@ -9,4 +6,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   color?: ColorVariant;
   variant?: Variants;
   fullWidth?: boolean;
+  label?: ReactNode; // اضافه کردن label
+  href?: string;
+  radius?: string; 
 }

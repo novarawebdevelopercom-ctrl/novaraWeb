@@ -11,4 +11,11 @@ export type MenuItemProps = {
   color?: ColorVariant;
   leftSection?: ReactNode;
   rightSection?: ReactNode;
+  label?: ReactNode;
+  component?: React.ElementType; 
+  href?: string;
+  
+
 } & PropsWithChildren;
+
+
