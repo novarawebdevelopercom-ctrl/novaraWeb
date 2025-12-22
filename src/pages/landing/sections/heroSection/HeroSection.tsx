@@ -34,7 +34,7 @@ function HeroSection() {
             online business services.
           </Typography>
 
-          <Button className={classes.heroButton}>Contact Now</Button>
+          <Button label={"Contact Now"} className={classes.heroButton}></Button>
         </Card>
       </div>
     </section>
