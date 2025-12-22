@@ -7,14 +7,14 @@ import { ButtonProps } from './types';
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   (
     {
-      
-      label, // اضافه شد
+      label,
       loading = false,
       startIcon = null,
       endIcon = null,
       color = 'primary',
       variant = 'filled',
       fullWidth = false,
+      children,
       ...props
     },
     ref
@@ -30,8 +30,11 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         variant={variant}
         {...props}
       >
-        {label } {/* اگر label بود استفاده شود، در غیر این صورت children */}
+        {label ?? children}
       </MantineButton>
     );
   }
 );
+
+// 🔥 اضافه کردن displayName برای حذف ارور ESLint
+Button.displayName = 'Button';
