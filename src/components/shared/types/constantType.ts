@@ -1,7 +1,6 @@
- import { IconType } from "react-icons"
  export interface ProcessProps{
-id:number;
-icon:IconType;
+id:string;
+icon:string;
 title:string;
 desc:string;
 }

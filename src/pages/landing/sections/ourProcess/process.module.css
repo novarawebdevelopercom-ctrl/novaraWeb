@@ -1,4 +1,68 @@
-.bg{
-    background-color: #181818;
+.bg {
+  background-color: #181818;
+  width: 100%;
+  padding: 5rem 1.5rem; /* ریسپانسیو */
+}
 
+.title {
+  margin-bottom: 40px;
+}
+
+/* === GRID === */
+.cardContainer {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 280px);
+  gap: 20px;
+  justify-content: center; /* کل گرید وسط */
+}
+
+/* کارت */
+.cardItem {
+  padding: 20px;
+  width: 280px; /* ثابت */
+}
+
+.cardTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardid {
+  color: #ebeef7;
+  font-size: 5rem;
+}
+
+/* ===== ریسپانسیو ===== */
+
+/* لپ‌تاپ */
+@media (max-width: 1200px) {
+  .cardContainer {
+    grid-template-columns: repeat(2, 280px);
+  }
+}
+
+/* تبلت */
+@media (max-width: 900px) {
+  .cardContainer {
+    grid-template-columns: repeat(2, 280px);
+  }
+}
+
+/* موبایل */
+@media (max-width: 600px) {
+  .cardContainer {
+    grid-template-columns: 280px;
+  }
+
+  .cardid {
+    font-size: 3rem;
+  }
 }
