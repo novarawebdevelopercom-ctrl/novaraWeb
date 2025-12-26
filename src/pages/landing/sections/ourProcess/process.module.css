@@ -12,15 +12,18 @@
 .cardContainer {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 280px);
+  grid-template-columns: repeat(4, 285px);
+
   gap: 20px;
   justify-content: center; /* کل گرید وسط */
 }
 
 /* کارت */
 .cardItem {
-  padding: 20px;
-  width: 280px; /* ثابت */
+  /* height: 270px; */
+  padding: 15px;
+  border-radious: 9px;
+  /* width: 280px;  */
 }
 
 .cardTitle {

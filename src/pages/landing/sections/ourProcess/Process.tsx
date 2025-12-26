@@ -11,6 +11,7 @@ function Process() {
           as="h2"
           color="white"
           align="center"
+          size={40}
           className={classes.title}>
           Our Process
         </Typography>

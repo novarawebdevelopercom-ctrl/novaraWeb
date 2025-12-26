@@ -14,12 +14,10 @@ export default function Home() {
       <Header />
       <HeroSection />
 
-      <ServiceSection/>
-      </>
+      <ServiceSection />
 
       <AboutSection />
       <Process />
     </>
-
   );
 }
