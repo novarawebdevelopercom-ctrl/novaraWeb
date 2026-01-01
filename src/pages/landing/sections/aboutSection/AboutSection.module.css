@@ -77,3 +77,8 @@
     height: 36px;
   }
 }
+.aboutButton:hover {
+  background-color: #e9570b;
+  color: white;
+  transition: all 0.3s;
+}

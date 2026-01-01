@@ -26,3 +26,19 @@ export const ProcessLink: ProcessProps[] = [
     icon: "/landing/icons/04.svg",
   },
 ];
+export const beforeForm:ProcessProps[]=[{
+  id: "1",
+  title: "Creative Agency",
+  icon: "/landing/icons/light.svg",
+  img:"/landing/images/agency.webp"
+},{
+  id: "2",
+  title: "Quality Work",
+  icon: "/landing/icons/workIcon.svg",
+    img:"/landing/images/work.webp"
+},{
+  id: "3",
+  title: "Professional Team",
+  icon: "/landing/icons/team.svg",
+    img:"/landing/images/team.webp"
+}]

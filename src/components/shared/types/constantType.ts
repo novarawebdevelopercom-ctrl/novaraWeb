@@ -2,5 +2,6 @@
 id:string;
 icon:string;
 title:string;
-desc:string;
+desc?:string;
+img?:string;
 }
