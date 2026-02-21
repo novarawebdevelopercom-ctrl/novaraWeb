@@ -8,6 +8,7 @@ import ServiceSection from "@/pages/landing/sections/serviceSection/ServiceSecti
 import AboutSection from "@/pages/landing/sections/aboutSection/AboutSection";
 import Process from "../pages/landing/sections/ourProcess/Process";
 import BeforeForm from "@/pages/landing/sections/BeforeForm/BeforeForm";
+import { ContactSection } from "@/components/landing/sections/contactSection/ContactSection";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <AboutSection />
       <Process />
       <BeforeForm />
+      <ContactSection />
     </>
   );
 }
