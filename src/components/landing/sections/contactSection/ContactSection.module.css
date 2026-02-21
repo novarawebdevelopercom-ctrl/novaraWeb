@@ -1,0 +1,144 @@
+.section {
+  background: rgb(30, 30, 30);
+  padding: 80px 0;
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+ 
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.title {
+  color: #fff;
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.titleAccent {
+  color: rgba(233, 108, 42, 1);
+}
+
+.subtitle {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 86px;
+  align-items: stretch;
+}
+
+.formCard {
+  
+  border-radius: 16px;
+  padding: 24px;
+  background: rgb(30, 30, 30);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+    gap: 5px;
+
+    
+
+}
+
+.input {
+  background: rgba(255, 255, 255, 0.92);
+  border: none;
+  padding: 20px 14px;
+  height: 50px;
+}
+
+.textarea {
+  background: rgba(255, 255, 255, 0.92);
+  border: none;
+}
+
+.submitBtn {
+  background: #e9570b;
+  border-radius: 999px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.submitBtn:hover {
+  background: #e9570b;
+}
+
+.serverOk {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: rgba(34, 197, 94, 0.14);
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+}
+
+.serverErr {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: rgba(239, 68, 68, 0.14);
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+.imagePanel {
+ 
+  position: relative;
+  overflow: hidden;
+  border-top-right-radius: 50px;
+    border-bottom-left-radius: 24px;
+ 
+ 
+  
+
+  
+  background-image: url("/landing/h1-customer.jpg (3).png");
+  background-size: cover;
+  background-position: center;
+}
+
+.imageOverlay {
+  position: absolute;
+   width:469.91px;
+  height:354.92px;
+   border-radius: 24px;
+   
+
+  
+}
+
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+@media (max-width: 900px) {
+     .imagePanel {
+    display: none;
+  }
+  .content {
+    grid-template-columns: 1fr;
+  }
+  .title {
+    font-size: 34px;
+  }
+ 
+}
