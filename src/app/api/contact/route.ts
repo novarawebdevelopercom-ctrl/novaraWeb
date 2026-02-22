@@ -16,9 +16,9 @@ export async function POST(req: Request) {
     });
 
     return Response.json({ ok: true });
-  } catch (err: any) {
+  } catch (err: unknown) {
     return Response.json(
-      { ok: false, message: err?.message ?? 'Bad request' },
+      { ok: false, message: err instanceof Error ? err.message : 'Bad request' },
       { status: 400 }
     );
   }

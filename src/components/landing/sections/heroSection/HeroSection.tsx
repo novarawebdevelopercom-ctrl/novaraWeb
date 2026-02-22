@@ -28,13 +28,17 @@ function HeroSection() {
       </div>
       <div className={classes.cardContainer}>
         <Card className={classes.heroCard}>
-          <Typography as="p" size={21} className={classes.cardText}>
+          <Typography className={classes.cardText}>
             Leading digital agency with solid design and development expertise.
             We build readymade websites, mobile applications, and elaborate
             online business services.
           </Typography>
 
-          <Button label={"Contact Now"} className={classes.heroButton}></Button>
+          <Button
+            label={"Contact Now"}
+            className={classes.heroButton}
+            color={"primary"}
+          />
         </Card>
       </div>
     </section>

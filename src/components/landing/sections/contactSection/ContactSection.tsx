@@ -92,9 +92,9 @@ export function ContactSection() {
       setServerOk(true);
       setServerMsg('Your request has been submitted successfully. We will get back to you soon.');
       reset();
-    } catch (e: any) {
+    } catch (e: unknown) {
       setServerOk(false);
-      setServerMsg(e?.message || 'An error occurred while submitting the request.');
+      setServerMsg(e instanceof Error ? e.message : 'An error occurred while submitting the request.');
     } finally {
       setLoading(false);
     }

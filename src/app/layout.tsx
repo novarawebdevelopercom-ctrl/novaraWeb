@@ -5,6 +5,7 @@ import {
   MantineProvider,
 } from "@mantine/core";
 import { theme } from "../theme";
+import Header from "@/components/layout/landing/Header";
 
 export const metadata = {
   title: "Mantine Next.js template",
@@ -27,7 +28,9 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <MantineProvider theme={theme}>
+          <Header/>
+          {children}</MantineProvider>
       </body>
     </html>
   );

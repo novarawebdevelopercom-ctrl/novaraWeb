@@ -48,12 +48,10 @@
   border-radius: 12px;
 }
 
-.cardText {
+/* .cardText {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-
-  line-height: 1.5;
-}
+} */
 
 .heroButton {
   align-self: flex-start;
