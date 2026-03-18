@@ -1,6 +1,6 @@
 "use client";
 
-import classes from "./Servicesection.module.css";
+import classes from "./ServiceSection.module.css";
 
 import { Card } from "@/components/ui/card/Card";
 import { Button } from "@/components/ui/button/button";

@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card/Card";
 import Image from "next/image";
-import classes from "./Herosection.module.css";
+import classes from "./HeroSection.module.css";
 import { Button, Typography } from "@/components/ui";
 
 function HeroSection() {

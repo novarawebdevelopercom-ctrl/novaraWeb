@@ -1,14 +1,14 @@
-// import HeroSection from "@/pages/landing/sections/heroSection/HeroSection";
+ 
 
-import HeroSection from "@/pages/landing/sections/heroSection/HeroSection";
+import HeroSection from "@/components/landing/sections/hero-section/HeroSection";
 import Header from "@/components/layout/landing/Header";
 
-import ServiceSection from "@/pages/landing/sections/serviceSection/ServiceSection";
+import ServiceSection from "@/components/landing/sections/service-section/ServiceSection";
+import AboutSection from "@/components/landing/sections/abaut-section/AbautSection";
+import Process from "@/components/landing/sections/ourprocess-section/Process";
+import BeforeForm from "@/components/landing/sections/beforeform-section/BeforeForm";
+import { ContactSection } from "@/components/landing/sections/contact-section/ContactSection";
 
-import AboutSection from "@/pages/landing/sections/aboutSection/AboutSection";
-import Process from "../pages/landing/sections/ourProcess/Process";
-import BeforeForm from "@/pages/landing/sections/BeforeForm/BeforeForm";
-import { ContactSection } from "@/components/landing/sections/contactSection/ContactSection";
 
 export default function Home() {
   return (
@@ -22,6 +22,7 @@ export default function Home() {
       <Process />
       <BeforeForm />
       <ContactSection />
+     
     </>
   );
 }

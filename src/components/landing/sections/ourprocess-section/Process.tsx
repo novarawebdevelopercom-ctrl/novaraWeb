@@ -1,5 +1,5 @@
 import { Container, Typography } from "@/components/ui";
-import classes from "./process.module.css";
+import classes from "./Process.module.css";
 import { Card } from "@/components/ui/card/Card";
 import { ProcessLink } from "@/components/shared/config/constants";
 import Image from "next/image";
