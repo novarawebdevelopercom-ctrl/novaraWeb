@@ -5,7 +5,7 @@ import React from "react";
 import classes from "./BeforeForm.module.css";
 function BeforeForm() {
   return (
-    <div>
+    <div id="beforeform-section">
       <div className="container">
         <Container className={classes.cardContainer}>
           {beforeForm.map((item) => (

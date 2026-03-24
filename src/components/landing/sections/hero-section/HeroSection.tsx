@@ -5,7 +5,7 @@ import { Button, Typography } from "@/components/ui";
 
 function HeroSection() {
   return (
-    <section className={classes.section}>
+    <section className={classes.section} id="hero-section">
       <Image
         src="/landing/hero.png"
         alt="hero"

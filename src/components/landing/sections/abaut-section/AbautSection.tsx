@@ -4,7 +4,7 @@ import { Button, Typography } from "@/components/ui";
 import { Card } from "@/components/ui/card/Card";
 function AboutSection() {
   return (
-    <div className={classes.aboutBanner}>
+    <div className={classes.aboutBanner} id="about-section">
       <Card className={classes.textBanner}>
         <Typography size={36} as="h2" className={classes.textH2}>
           Designed and built by an astonishing creative team.

@@ -44,7 +44,7 @@ const services: ServiceItem[] = [
 
 function ServicesSection() {
   return (
-    <section className={classes.section}>
+    <section className={classes.section} id="service-section">
       <div className={classes.container}>
         {/* LEFT */}
         <Card className={classes.leftCard}>

@@ -6,6 +6,8 @@ import {
 } from "@mantine/core";
 import { theme } from "../theme";
 import Header from "@/components/layout/landing/Header";
+import { Footer } from "@/components/layout/landing/Footer";
+import "./globals.css";
 
 export const metadata = {
   title: "Mantine Next.js template",
@@ -14,23 +16,19 @@ export const metadata = {
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode;
-}) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" {...mantineHtmlProps}>
       <head>
         <ColorSchemeScript />
         <link rel="shortcut icon" href="/favicon.svg" />
-        <meta
-          name="viewport"
-          content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
-        />
       </head>
       <body>
         <MantineProvider theme={theme}>
-          <Header/>
-          {children}</MantineProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </MantineProvider>
       </body>
     </html>
   );

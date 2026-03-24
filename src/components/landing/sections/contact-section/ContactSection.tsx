@@ -101,7 +101,7 @@ export function ContactSection() {
   };
 
   return (
-    <section className={classes.section}>
+    <section className={classes.section} id="contact-section">
       <div className={classes.container}>
         <div className={classes.header}>
           <Typography  className={classes.title}>
