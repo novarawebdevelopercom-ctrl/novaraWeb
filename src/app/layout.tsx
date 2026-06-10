@@ -7,7 +7,6 @@ import {
 import { theme } from "../theme";
 import Header from "@/components/layout/landing/Header";
 import { Footer } from "@/components/layout/landing/Footer";
-import "./globals.css";
 
 export const metadata = {
   title: "Mantine Next.js template",

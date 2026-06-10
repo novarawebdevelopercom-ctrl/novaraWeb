@@ -1,4 +1,3 @@
-import React from "react";
 import classes from "./AbautSection.module.css";
 import { Button, Typography } from "@/components/ui";
 import { Card } from "@/components/ui/card/Card";
